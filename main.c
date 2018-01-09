@@ -19,6 +19,7 @@ int main(int argc, char** argv) {
     switch(opcion){
     case 1:
         programa1();
+        
         break;
     case 2:
         programa2();
@@ -30,6 +31,6 @@ int main(int argc, char** argv) {
         printf("\nOpción Inválida.");
         break;
     }
-    return (EXIT_SUCCESS);
+    return 0;
 }
 
